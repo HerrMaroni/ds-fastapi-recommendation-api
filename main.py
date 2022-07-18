@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-MODEL_PATH = '../models/'
+MODEL_PATH = './models/'
 app = FastAPI()
 
 origins = [
